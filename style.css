@@ -50,6 +50,15 @@ body > main > aside > section > article > hgroup {
     margin-left: 20px;
 }
   
+body > article {
+    margin: auto;
+    width: 80%;
+}
+
+body > article > img {
+    width: 10%;
+}
+
 body > footer {
     background-color: dodgerblue;
 }
@@ -64,5 +73,5 @@ body > footer > p {
 textarea {
     width: 95%;
     height: 100px;
+    margin: 2
 }
-  
