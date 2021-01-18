@@ -60,9 +60,9 @@ body > footer > p {
     text-align: center;
     color: white;
 }
-  
-.submit-button {
-    background-color: transparent;
-    border: 1px solid dodgerblue;
+
+textarea {
+    width: 95%;
+    height: 100px;
 }
   
