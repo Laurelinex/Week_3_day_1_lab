@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif
+}
+  
+body > header {
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+  
+body > header > h1 {
+    padding: 20px;
+    color: white;
+}
+  
+body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+  
+body > header > nav > ul > li > a {
+    padding-right: 12px;
+    color: white;
+}
+
+body > main > aside > section {
+    margin: auto;
+    width: 80%;
+}
+
+body > main > article {
+    margin: auto;
+    width: 80%;
+}
+
+body > main > aside > section > article {
+    margin: 16px;
+    display: flex;
+}
+
+body > main > aside > section > article > img {
+    width: 20%;
+}
+
+body > main > aside > section > article > hgroup {
+    margin-left: 20px;
+}
+  
+body > footer {
+    background-color: dodgerblue;
+}
+  
+body > footer > p {
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+  
+.submit-button {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+}
+  
